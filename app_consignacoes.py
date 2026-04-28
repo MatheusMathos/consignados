@@ -136,7 +136,7 @@ try:
 
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Total de Registros", total_notas)
-    c2.metric("Total Geral(Entradas+Saídas)", format_brl(total_geral))
+    c2.metric("Total Geral (Entradas+Saídas)", format_brl(total_geral))
     c3.metric("Processo OK", format_brl(valor_ok))
     c4.metric("Divergências", format_brl(valor_divergencia))
     c5.metric("Diferença Geral", format_brl(diferenca_geral))
